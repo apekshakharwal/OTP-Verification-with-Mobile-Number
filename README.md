@@ -23,8 +23,10 @@ Where you get code go for node.js code
 ### Starting the server 
 If you have the all installations ready, run the following commands in your editor
 
-**npm install** to install the packages required by the server.
-
+To install the packages required by the server.
+```
+npm install
+```
 To start your server on the machine
 
 - **For Angular** 
@@ -36,3 +38,12 @@ ng serve
 ```
 node app.js
 ```
+
+After serving visiti to `http://localhost:4200/`
+
+
+![Enter number](https://github.com/apekshakharwal/OTP-Verification-with-Mobile-Number/assets/91956309/4453a006-79a1-4481-8e87-458d040eeb1b)
+
+
+![Otp verified](https://github.com/apekshakharwal/OTP-Verification-with-Mobile-Number/assets/91956309/b1a8bc6d-ea14-4ab1-a693-7437ed276099)
+
