@@ -1,0 +1,30 @@
+<div class="verify">
+  <div class="login-container">
+    <div class="card">
+
+      <form [formGroup]="registerForm">
+
+        <div>
+          <label><b>Mobile no :</b></label>
+          <input type="text" class="form-control" formControlName="number">
+          <small><b>For example : 88882424XX</b></small>
+        </div>
+
+        <div *ngIf="success == 1">
+          <label><b>Enter OTP</b></label>
+          <input type="text" class="form-control" formControlName="otp">
+        </div>
+
+
+        <div *ngIf="success == 0"><button type="submit" class="btn btn-primary"
+            (click)="submitnumber(registerForm.value);">Submit</button>
+        </div>
+
+        <div *ngIf="success == 1"> <button type="submit" class="btn btn-primary"
+            (click)="submitotp(registerForm.value);">Submit</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
